@@ -9,7 +9,7 @@
 .videosdocumentaries,
 .articles,
 .questionaires,
-.sign-up 
+.sign-up
 {
   display: flex;
   height: 90vh;
@@ -23,14 +23,19 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+<<<<<<< Updated upstream
   color: #fff;
   font-size: 100px;
+=======
+  color: rgb(240, 240, 240);
+  float:right;
+>>>>>>> Stashed changes
 }
 
 .questionaires {
   background-image: url('/images/img-2.jpg');
   background-position: center;
-  background-size: cover;
+  background-size:cover;
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
@@ -52,4 +57,24 @@
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
+}
+.ReactPlayer {
+    float:left;
+    margin:30px;
+  
+    width:45%;
+   
+}
+body {
+    background-image: url('/images/img-9.jpg');
+    background-size: cover;
+}
+.ReactPlayer h1{
+    text-align: center;
+    color:#ffffff;
+}
+.VideoPlayer{
+   margin-left:85px;
+ 
+   
 }
