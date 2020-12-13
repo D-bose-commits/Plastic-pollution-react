@@ -56,7 +56,7 @@ function Navbar() {
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                Questionaires
+                Questionnaires
               </Link>
             </li>
             <li className='nav-item'>
