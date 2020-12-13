@@ -1,6 +1,26 @@
 import React from 'react';
 import '../../App.css';
+import ReactPlayer from "react-player"
 
-export default function VideosDocumentaries() {
-  return <h1 className='videosdocumentaries'>Videos & Documentaries</h1>;
+function VideosDocumentaries() {
+ return <div className="VideosDocumentaries">
+ Plastic Polution Video 1
+    
+         <ReactPlayer
+         url="https://www.youtube.com/watch?v=IA9O9YUbQew"
+        
+     />plastic polution video 2
+     <ReactPlayer
+         url="https://www.youtube.com/watch?v=HQTUWK7CM-Y"
+     />
+     Plastic poluton video 3
+     <ReactPlayer
+         url="https://www.youtube.com/watch?v=Yomf5pBN8dY"
+     />
+
+
+     </div>
+    
+     
 }
+export default VideosDocumentaries; 
