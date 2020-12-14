@@ -8,7 +8,7 @@
 .home,
 .videosdocumentaries,
 .articles,
-.questionaires,
+.questionnaires,
 .sign-up
 {
   display: flex;
@@ -27,7 +27,7 @@
   font-size: 100px;
 }
 
-.questionaires {
+.questionnaires {
   background-image: url('/images/img-2.jpg');
   background-position: center;
   background-size: cover;
@@ -37,12 +37,30 @@
 }
 
 .articles {
-  background-image: url('/images/img-3.jpg');
+  background-image: url('/images/img-4.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
-  font-size: 100px;
+
+}
+
+.articles-wrapper{
+  opacity: 0.8;
+  position: center;
+  background-color: #fff;
+  color:black;
+  font-size: 30px;
+  padding: 10pt;
+}
+
+.articles-container{
+  opacity: 0.8;
+  position: relative;
+  background-color: #fff;
+  color:black;
+  font-size: 20px;
+  padding: 10pt;
 }
 
 .sign-up {
@@ -53,6 +71,7 @@
   color: #fff;
   font-size: 100px;
 }
+
 .ReactPlayer {
     float:left;
     margin:30px;
@@ -60,16 +79,18 @@
     width:45%;
 
 }
+
 body {
-    background-image: url('/images/img-9.jpg');
-    background-size: cover;
+  background-image: url('/images/img-9.jpg');
+  background-size: cover;
 }
+
 .ReactPlayer h1{
     text-align: center;
     color:#ffffff;
 }
+
 .VideoPlayer{
    margin-left:85px;
-
 
 }
