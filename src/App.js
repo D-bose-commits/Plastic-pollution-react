@@ -30,3 +30,5 @@ function App() {
 }
 
 export default App;
+
+//Npm install , npm install react-router-dom, npm i react-player, npm i react-iframe
