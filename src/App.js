@@ -6,7 +6,9 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import VideosDocumentaries from './components/pages/VideosDocumentaries';
 import Articles from './components/pages/Articles';
 import SignUp from './components/pages/SignUp';
-import Questionnaires from './components/pages/Questionaire';
+
+import Questionnaires from './components/pages/Questionnaire';
+
 import ReactPlayer from "react-player"
 
 function App() {
