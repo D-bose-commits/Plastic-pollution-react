@@ -1,6 +1,7 @@
 import React from 'react';
 import '../../App.css';
 import ReactPlayer from "react-player"
+import Footer from '../Footer';
 
 function VideosDocumentaries() {
     return <div className="VideosDocumentaries">
@@ -22,8 +23,6 @@ function VideosDocumentaries() {
                 </h1>
             <ReactPlayer className="VideoPlayer" url="https://www.youtube.com/watch?v=9-dpv2xbFyk" />
         </div>
-
      </div>
- 
 }
 export default VideosDocumentaries; 
