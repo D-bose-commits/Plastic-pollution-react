@@ -8,7 +8,7 @@
 .home,
 .videosdocumentaries,
 .articles,
-.questionaires,
+.questionnaires,
 .sign-up
 {
   display: flex;
@@ -27,7 +27,7 @@
   font-size: 100px;
 }
 
-.questionaires {
+.questionnaires {
   background-image: url('/images/img-2.jpg');
   background-position: center;
   background-size: cover;
