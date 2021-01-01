@@ -9,6 +9,7 @@ function VideosDocumentaries() {
          <ReactPlayer
          url="https://www.youtube.com/watch?v=IA9O9YUbQew"
         
+<<<<<<< Updated upstream
      />plastic polution video 2
      <ReactPlayer
          url="https://www.youtube.com/watch?v=HQTUWK7CM-Y"
@@ -21,6 +22,26 @@ function VideosDocumentaries() {
 
      </div>
     
+=======
+    <div className="ReactPlayer">
+            <h1>Plastic Polution Documentary
+                </h1>
+            <ReactPlayer className="VideoPlayer" url="https://www.youtube.com/watch?v=9-dpv2xbFyk" />
+        </div>
+
+        <div className="ReactPlayer">
+            <h1>Plastic Polution Documentary
+                </h1>
+            <ReactPlayer className="VideoPlayer" url="https://www.youtube.com/watch?v=ju_2NuK5O-E" />
+        </div>
+
+        <div className="ReactPlayer">
+            <h1>Plastic Polution Documentary
+                </h1>
+            <ReactPlayer className="VideoPlayer" url="https://www.youtube.com/watch?v=9_AxRT8HFDk" />
+        </div>
+     </div>
+>>>>>>> Stashed changes
      
 }
 export default VideosDocumentaries; 
