@@ -23,6 +23,17 @@ function VideosDocumentaries() {
                 </h1>
             <ReactPlayer className="VideoPlayer" url="https://www.youtube.com/watch?v=9-dpv2xbFyk" />
         </div>
+        <div className="ReactPlayer">
+            <h1>Plastic Polution Documentary
+                </h1>
+            <ReactPlayer className="VideoPlayer" url="https://www.youtube.com/watch?v=ju_2NuK5O-E" />
+        </div>
+
+        <div className="ReactPlayer">
+            <h1>Plastic Polution Documentary
+                </h1>
+            <ReactPlayer className="VideoPlayer" url="https://www.youtube.com/watch?v=9_AxRT8HFDk" />
+        </div>
      </div>
 }
 export default VideosDocumentaries; 
