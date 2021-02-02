@@ -50,5 +50,52 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+
+    <style>
+      body {
+        font-family: Arial;
+      }
+      
+      * {
+        box-sizing: border-box;
+      }
+      
+      form.example input[type=text] {
+        padding: 10px;
+        font-size: 17px;
+        border: 1px solid grey;
+        float: right;
+        width: 80%;
+        
+      }
+      
+      form.example button {
+        float: right;
+        width: 60px;
+        padding: 10px;
+        background: #2196F3;
+        color: white;
+        font-size: 17px;
+        border: 1px solid grey;
+        border-left:1px solid grey;
+        cursor: pointer;
+      }
+      
+      </style>
+      </head>
+      <body>
+      
+      <form class="example" action="/action_page.php" style="margin:auto;max-width:300px">
+      
+        <input type="text" placeholder="Search..." name="search">
+        <button type="submit"><i class="fa fa-search"></i></button>
+      </form>
+      
+      </body>
+      
+      
   </body>
 </html>
+
+
+
