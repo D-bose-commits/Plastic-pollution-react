@@ -1,0 +1,22 @@
+.s-alert-box {
+    min-width: 250px;
+}
+
+.s-alert-close::before, .s-alert-close::after {
+    width: 2px;
+}
+.app-body{
+    display: inline-block;
+    left: 50%;
+    text-align: center;
+    width: 300px;
+    border: 1px solid rgba(255, 255, 255, 0);
+    padding: 50px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    margin-left: 20%;
+    -webkit-box-shadow: 0px 0px 15px 7px #9d9d9d;
+    box-shadow: 0px 0px 15px 7px #9d9d9d;
+}

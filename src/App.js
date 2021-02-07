@@ -5,10 +5,15 @@ import Home from './components/pages/Home';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import VideosDocumentaries from './components/pages/VideosDocumentaries';
 import Articles from './components/pages/Articles';
-import SignUp from './components/pages/SignUp';
-import Questionaire1 from './components/pages/Questionaire1';
-import Questionaire2 from './components/pages/Questionaire2';
-import Questionaire3 from './components/pages/Questionaire3';
+// import SignUp from './components/pages/SignUp';
+import Signup from './user/signup/Signup';
+import Login from './user/login/Login';
+
+
+import yes from './app/yes';
+
+import Questionnaires from './components/pages/Questionnaire';
+
 import ReactPlayer from "react-player"
 
 function App() {
@@ -20,9 +25,13 @@ function App() {
         <Switch>
           <Route path='/' exact component={Home} />
           <Route path='/videosdocumentaries' component={VideosDocumentaries}/>
-          <Route path='/Questionaire1' component={Questionaire1} />
+          <Route path='/questionnaires' component={Questionnaires} />
           <Route path='/articles' component={Articles} />
-          <Route path='/sign-up' component={SignUp} />
+          <Route path='/sign-up' component={Signup} /> 
+          <Route path='/login' component={Login} />
+          
+          {/* <Route path='/sign-up' component={SignUp} /> */}
+
         </Switch>
       </Router>
     </>
