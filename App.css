@@ -34,6 +34,8 @@
   background-repeat: no-repeat;
   color: rgb(0, 0, 0);
   font-size: 100px;
+  max-width: 100%;
+  height: auto;
 }
 
 .articles {
