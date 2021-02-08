@@ -91,9 +91,12 @@ body {
 }
 
 .VideoPlayer{
-   margin-left:85px;
-
+  margin-left:85px;
+   max-width: 100%;
+   height: auto;
+ 
 }
+
 
 
 .box {
