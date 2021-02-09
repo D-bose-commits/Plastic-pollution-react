@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html> xmlns="http://www.w3.org/1999/xhtml"
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<link rel="stylesheet" type="text/css" href="Quiz_F.css" />
+</head>
+
+<body>
+	<div id="page-wrap">
+        <?php
+
+            answer1 = $_POST['question-1-answers'];
+            answer2 = $_POST['question-2-answers'];
+            answer3 = $_POST['question-3-answers'];
+            answer4 = $_POST['question-4-answers'];
+            answer5 = $_POST['question-5-answers'];
+
+            Score = 0;
+
+            if (answer1 == "A")  { Score++; }
+            if (answer1 == "B")  { Score++; }
+            if (answer1 == "C")  { Score++; }
+            if (answer1 == "D")  { Score++; }
+            if (answer1 == "E")  { Score++; }
+            if (answer1 == "F")  { Score++; }
+
+            if (answer2 == "A") { Score++; }
+            if (answer2 == "B") { Score++; }
+            if (answer2 == "C") { Score++; }
+            if (answer2 == "D") { Score++; }
+            if (answer2 == "E") { Score++; }
+            if (answer2 == "F") { Score++; }
+
+            if (answer3 == "A") { Score++; }
+            if (answer3 == "B") { Score++; }
+            if (answer3 == "C") { Score++; }
+            if (answer3 == "D") { Score++; }
+            if (answer3 == "E") { Score++; }
+            if (answer3 == "F") { Score++; }
+
+            if (answer4 == "A") { Score++; }
+            if (answer4 == "B") { Score++; }
+            if (answer4 == "C") { Score++; }
+            if (answer4 == "D") { Score++; }
+            if (answer4 == "E") { Score++; }
+            if (answer4 == "F") { Score++; }
+
+            if (answer5 == "A") { Score++; }
+            if (answer5 == "B") { Score++; }
+            if (answer5 == "C") { Score++; }
+            if (answer5 == "D") { Score++; }
+            if (answer5 == "E") { Score++; }
+            if (answer5 == "F") { Score++; }
+
+            echo "<div id='results'>$totalCorrect / 5 correct</div>";
+
+        ?>
+	</div>
+
+	<script type="text/javascript">
+	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	</script>
+	<script type="text/javascript">
+	var pageTracker = _gat._getTracker("UA-68528-29");
+	pageTracker._initData();
+	pageTracker._trackPageview();
+	</script>
+
+</body>
+
+</html>
