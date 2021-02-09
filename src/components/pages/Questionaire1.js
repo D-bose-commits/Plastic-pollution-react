@@ -11,3 +11,9 @@ export default function Questionnaires() {
     </div>
     </>
   }
+//<a href="source URL">Questionnaire link</a>
+//Go to https://forms.google.com/and open your form.
+//Click Send.
+//Next to Send via, click Embed 
+//Click the HTML and click Copy.
+//Paste the HTML into your site or blog.
