@@ -34,6 +34,8 @@
   background-repeat: no-repeat;
   color: rgb(0, 0, 0);
   font-size: 100px;
+  max-width: 100%;
+  height: auto;
 }
 
 .articles {
@@ -72,6 +74,8 @@
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
+  max-width: 100%;
+  height: auto;
 }
 
 .ReactPlayer {
@@ -151,3 +155,19 @@ body {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
 }
+
+.app {
+  background-color: #252d4a;
+  width: 450px;
+  min-height: 200px;
+  height: min-content;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 5px 11x 42px 10px rgba(0, 0, 0, 0.75);
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 0.5;
+
+  
+}
+
