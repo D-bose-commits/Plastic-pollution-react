@@ -183,3 +183,27 @@ body {
   position: relative;
 }
 
+.question-count {
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.question-count span {
+  font-size: 28px;
+  color: #ffffff;
+}
+
+.question-text {
+  margin-bottom: 12px;
+  color: #ffffff;
+}
+
+.timer-text {
+  background: rgb(230, 153, 12);
+  padding: 15px;
+  margin-top: 20px;
+  margin-right: 20px;
+  border: 5px solid rgb(255, 189, 67);
+  border-radius: 15px;
+  text-align: center;
+}
