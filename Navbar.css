@@ -146,3 +146,12 @@
     border: 1px solid #fff;
     transition: all 0.3s ease-out;
   }
+
+
+  .nav-links-mobile:hover {
+    background: #fff;
+    color: #242424;
+    transition: 250ms;
+  }
+}
+
