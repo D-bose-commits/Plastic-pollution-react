@@ -23,10 +23,11 @@ export default function App() {
 			//find code for short-answer text answers
 			questionText: "State another popular type of plastic in its abbreviated form.",
 			answerOptions: [
-				{ answerText: '2 Billion', isCorrect: false },
-				{ answerText: '800 Million', isCorrect: false },
-				{ answerText: '3 Billion', isCorrect: true },
-				{ answerText: '450 Million', isCorrect: false },
+				//insert answer options
+				// { answerText: '2 Billion', isCorrect: false },
+				// { answerText: '800 Million', isCorrect: false },
+				// { answerText: '3 Billion', isCorrect: true },
+				// { answerText: '450 Million', isCorrect: false },
 			],
 			
 		},	
