@@ -11,7 +11,6 @@ import Login from './user/login/Login';
 import Quiz2 from './components/pages/Quiz2';
 import Quiz3 from './components/pages/Quiz3';
 import yes from './app/yes';
-
 import Questionnaires from './components/pages/Questionnaire';
 
 import ReactPlayer from "react-player"
