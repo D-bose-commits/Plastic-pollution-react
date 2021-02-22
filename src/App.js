@@ -9,7 +9,7 @@ import Articles from './components/pages/Articles';
 import Signup from './user/signup/Signup';
 import Login from './user/login/Login';
 import Quiz2 from './components/pages/Quiz2';
-//import Quiz3 from './components/pages/Quiz3';
+import Quiz3 from './components/pages/Quiz3';
 import yes from './app/yes';
 
 import Questionnaires from './components/pages/Questionnaire';
@@ -28,7 +28,7 @@ function App() {
           <Route path='/questionnaires' component={Questionnaires} />
           <Route path='/articles' component={Articles} />
           <Route path='/Quiz2' component={Quiz2} />
-          
+          <Route path='/Quiz3' component={Quiz3} />
           <Route path='/sign-up' component={Signup} /> 
           <Route path='/login' component={Login} />
           
@@ -39,7 +39,6 @@ function App() {
     </>
   );
 }
-
 export default App;
 
 //Npm install , npm install react-router-dom, npm i react-player, npm i react-iframe

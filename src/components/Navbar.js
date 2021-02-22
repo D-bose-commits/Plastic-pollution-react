@@ -57,6 +57,15 @@ function Navbar() {
                 onClick={closeMobileMenu}
               >
                 Questionnaires
+                </Link>
+            </li>
+            <li className='nav-item'>
+              <Link
+                to='/Quiz2'
+                className='nav-links'
+                onClick={closeMobileMenu}
+              >
+                Quizzes
               </Link>
             </li>
             <li className='nav-item'>
