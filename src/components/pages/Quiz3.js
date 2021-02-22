@@ -29,15 +29,7 @@ export default function App() {
 				{ answerText: '450 Million', isCorrect: false },
 			],
 			
-		},
-		// <form>
-		// 	<label>
-		// 	  Name:
-		// 	  <input type="text" name="name" />
-		// 	</label>
-		// 	<input type="submit" value="Submit" />
-		//   </form>,
-		
+		},	
 		{
 			//Take a close look at the image below. Use it to answer question a, b and c.
 			//Insert code that shows image
