@@ -150,6 +150,7 @@
     border: 1px solid #fff;
     transition: all 0.3s ease-out;
   }
+<<<<<<< Updated upstream
 
   .nav-links-mobile:hover {
     background: #fff;
@@ -157,3 +158,6 @@
     transition: 250ms;
   }
 }
+=======
+}
+>>>>>>> Stashed changes

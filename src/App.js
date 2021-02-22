@@ -8,8 +8,13 @@ import Articles from './components/pages/Articles';
 // import SignUp from './components/pages/SignUp';
 import Signup from './user/signup/Signup';
 import Login from './user/login/Login';
+<<<<<<< Updated upstream
 
 
+=======
+import Quiz2 from './components/pages/Quiz2';
+//import Quiz3 from './components/pages/Quiz3';
+>>>>>>> Stashed changes
 import yes from './app/yes';
 
 import Questionnaires from './components/pages/Questionnaire';
@@ -27,6 +32,11 @@ function App() {
           <Route path='/videosdocumentaries' component={VideosDocumentaries}/>
           <Route path='/questionnaires' component={Questionnaires} />
           <Route path='/articles' component={Articles} />
+<<<<<<< Updated upstream
+=======
+          <Route path='/Quiz2' component={Quiz2} />
+          
+>>>>>>> Stashed changes
           <Route path='/sign-up' component={Signup} /> 
           <Route path='/login' component={Login} />
           
