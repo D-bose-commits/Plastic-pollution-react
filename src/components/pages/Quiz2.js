@@ -57,6 +57,7 @@ export default function App() {
 			],
 		},
 		{
+			//change correct answers to include two correct answers
 			questionText: 'What do you get in return for recycling plastic in Haiti? (Choose two)',
 			answerOptions: [
 				{ answerText: 'Cash', isCorrect: false },
