@@ -26,8 +26,6 @@ function App() {
           <Route path='/videosdocumentaries' component={VideosDocumentaries}/>
           <Route path='/questionnaires' component={Questionnaires} />
           <Route path='/articles' component={Articles} />
-          <Route path='/Quiz2' component={Quiz2} />
-          <Route path='/Quiz3' component={Quiz3} />
           <Route path='/sign-up' component={Signup} /> 
           <Route path='/login' component={Login} />
           
@@ -38,6 +36,7 @@ function App() {
     </>
   );
 }
+
 export default App;
 
 //Npm install , npm install react-router-dom, npm i react-player, npm i react-iframe
