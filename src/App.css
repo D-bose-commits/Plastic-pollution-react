@@ -39,26 +39,32 @@
 }
 
 .articles {
-margin: 30px auto;
-display: grid;
-grid-template-columns: repeat(3, 1fr);
-grid-gap: 10px;
+  background-image: url('/images/img-4.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
 
 }
-.articles-wrapper1{
+
+.articles-wrapper{
   opacity: 0.8;
-  position: auto;
+  position: center;
   background-color: #fff;
-  color:blue;
+  color:black;
   font-size: 30px;
   padding: 10pt;
-
 }
-.articles-wrapper{
-  max-width: 500px;
-  padding: 30px;
-  border: 1px solid lightblue;
-  border-radius: 5px;
+
+.articles-container{
+  opacity: 0.8;
+  position: relative;
+  background-color: #fff;
+  color:black;
+  font-size: 20px;
+  padding: 10pt;
+  max-width: 100%;
+  height: auto;
 }
 
 .sign-up {
@@ -94,7 +100,7 @@ body {
   margin-left:85px;
    max-width: 100%;
    height: auto;
-
+ 
 }
 
 
@@ -149,8 +155,6 @@ body {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
 }
-<<<<<<< Updated upstream
-=======
 
 .app {
   background-color: #252d4a;
@@ -164,6 +168,6 @@ body {
   justify-content: space-evenly;
   padding-top: 0.5;
 
-
+  
 }
->>>>>>> Stashed changes
+

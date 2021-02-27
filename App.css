@@ -100,7 +100,7 @@ body {
   margin-left:85px;
    max-width: 100%;
    height: auto;
-
+ 
 }
 
 
@@ -168,7 +168,7 @@ body {
   justify-content: space-evenly;
   padding-top: 0.5;
 
-
+  
 }
 .score-section {
   display: flex;
@@ -247,3 +247,4 @@ button:focus {
 button svg {
   margin-right: 5px;
 }
+
