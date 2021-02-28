@@ -83,7 +83,7 @@ function Footer() {
               aria-label='LinkedIn'
             >
               <i class='fab fa-linkedin' />
-            </Link>
+            </Link> 
           </div>
         </div>
       </section>
