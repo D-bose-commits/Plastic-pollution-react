@@ -48,12 +48,13 @@
 }
 
 .articles-wrapper{
-  opacity: 0.8;
-  position: center;
-  background-color: #fff;
-  color:black;
-  font-size: 30px;
-  padding: 10pt;
+  display: flex;
+  flex-flow: wrap;
+  align-items: left;
+  max-width: 1120px;
+  width: 90%;
+  margin: 0 auto;
+  font-size: 2px;
 }
 
 .articles-container{
@@ -62,7 +63,7 @@
   background-color: #fff;
   color:black;
   font-size: 20px;
-  padding: 10pt;
+  padding: 4rem;
   max-width: 100%;
   height: auto;
 }
