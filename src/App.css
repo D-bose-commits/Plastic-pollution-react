@@ -51,7 +51,6 @@
   display: flex;
   flex-flow: wrap;
   align-items: left;
-  max-width: 1120px;
   width: 90%;
   margin: 0 auto;
   font-size: 2px;
@@ -64,7 +63,8 @@
   color:black;
   font-size: 20px;
   padding: 4rem;
-  max-width: 100%;
+  max-width: 2000px;
+  width: 100%;
   height: auto;
 }
 
