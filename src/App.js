@@ -40,4 +40,4 @@ function App() {
 }
 export default App;
 
-//npm install , npm install react-router-dom, npm i react-player, npm i react-iframe, npm install react-scroll
+//npm install , npm install react-router-dom, npm i react-player, npm i react-iframe,
