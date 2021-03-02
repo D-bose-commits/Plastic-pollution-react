@@ -11,9 +11,12 @@ import Login from './user/login/Login';
 import Quiz2 from './components/pages/Quiz2';
 import Quiz3 from './components/pages/Quiz3';
 import yes from './app/yes';
-import Questionnaires from './components/pages/Questionnaire';
+
+
+import Questionnaire from './components/pages/ContactForm';
 
 import ReactPlayer from "react-player"
+import quizzes from './components/pages/quizzes';
 
 function App() {
   return (
@@ -24,10 +27,11 @@ function App() {
         <Switch>
           <Route path='/' exact component={Home} />
           <Route path='/videosdocumentaries' component={VideosDocumentaries}/>
-          <Route path='/questionnaires' component={Questionnaires} />
+         
           <Route path='/articles' component={Articles} />
           <Route path='/Quiz2' component={Quiz2} />
           <Route path='/Quiz3' component={Quiz3} />
+          <Route path='/quizzes' component={quizzes} />
           <Route path='/sign-up' component={Signup} /> 
           <Route path='/login' component={Login} />
           
