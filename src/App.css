@@ -9,7 +9,6 @@
 .videosdocumentaries,
 .articles,
 .questionnaires,
-.Quizzes,
 .sign-up
 {
   display: flex;
@@ -156,26 +155,6 @@ body {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
 }
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-* {
-  font-family: "Verdana", cursive, sans-serif;
-  color: #ffffff;
-}
-
-body {
-  background-color: #7cc6fe;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-}
 
 .app {
   background-color: #252d4a;
@@ -184,15 +163,18 @@ body {
   height: min-content;
   border-radius: 15px;
   padding: 20px;
-  box-shadow: 10px 10px 42px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 5px 11x 42px 10px rgba(0, 0, 0, 0.75);
   display: flex;
   justify-content: space-evenly;
-}
+  padding-top: 0.5;
 
+  
+}
 .score-section {
   display: flex;
   font-size: 24px;
   align-items: center;
+  color: #ffffff;
 }
 
 /* QUESTION/TIMER/LEFT SECTION */
@@ -203,14 +185,17 @@ body {
 
 .question-count {
   margin-bottom: 20px;
+  color: #ffffff;
 }
 
 .question-count span {
   font-size: 28px;
+  color: #ffffff;
 }
 
 .question-text {
   margin-bottom: 12px;
+  color: #ffffff;
 }
 
 .timer-text {
@@ -222,7 +207,6 @@ body {
   border-radius: 15px;
   text-align: center;
 }
-
 /* ANSWERS/RIGHT SECTION */
 .answer-section {
   width: 100%;
@@ -244,7 +228,6 @@ button {
   border: 5px solid #234668;
   cursor: pointer;
 }
-
 .correct {
   background-color: #2f922f;
 }
@@ -263,4 +246,76 @@ button:focus {
 
 button svg {
   margin-right: 5px;
+}
+.wrapper{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  max-width: 350px;
+  width: 100%;
+  background: #fff;
+  padding: 25px;
+  border-radius: 5px;
+  box-shadow: 4px 4px 2px rgba(254,236,164,1); 
+}
+
+.wrapper h2{
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #332902;
+}
+
+.wrapper .input_field{
+  margin-bottom: 10px;
+}
+
+.wrapper .input_field input[type="text"],
+.wrapper textarea{
+  border: 1px solid #e0e0e0;
+  width: 100%;
+  padding: 10px;
+}
+
+.wrapper textarea{
+  resize: none;
+  height: 80px;
+}
+
+.wrapper .btn input[type="submit"]{
+  border: 0px;
+  margin-top: 15px;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  background: #fece0c;
+  color: #332902;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+#error_message{
+  margin-bottom: 20px;
+  background: #fe8b8e;
+  padding: 0px;
+  text-align: center;
+  font-size: 14px;
+  transition: all 0.5s ease;
+}
+.app2 {
+  background-color: #252d4a;
+  width: 450px;
+  min-height: 200px;
+  height: min-content;
+  border-radius: 15px;
+  padding: 50px;
+  box-shadow: 5px 11x 42px 10px rgba(0, 0, 0, 0.75);
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 0.5;
 }
