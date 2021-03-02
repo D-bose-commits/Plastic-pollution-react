@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-export default function App() {
+function Quiz3 () {
 	const questions = [
 		{
 			questionText: 'How many plastics types are considered the main or most popular types?',
@@ -24,10 +24,10 @@ export default function App() {
 			questionText: "State another popular type of plastic in its abbreviated form.",
 			answerOptions: [
 				//insert answer options
-				// { answerText: '2 Billion', isCorrect: false },
-				// { answerText: '800 Million', isCorrect: false },
-				// { answerText: '3 Billion', isCorrect: true },
-				// { answerText: '450 Million', isCorrect: false },
+				 { answerText: '2 Billion', isCorrect: false },
+				{ answerText: '800 Million', isCorrect: false },
+				{ answerText: '3 Billion', isCorrect: true },
+				 { answerText: '450 Million', isCorrect: false },
 			],
 			
 		},	
@@ -136,7 +136,7 @@ export default function App() {
 	
 	
 	return (
-		<div className='app'>
+		<div className='app2'>
 			{showScore ? (
 				<div className='score-section'>
 					You scored {score} out of {questions.length}
@@ -158,4 +158,6 @@ export default function App() {
 			)}
 		</div>
 	);
+
 }
+export default Quiz3;
