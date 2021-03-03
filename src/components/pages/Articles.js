@@ -1,19 +1,19 @@
 import React from 'react';
 import '../../App.css';
-import ArticleCards from '../ArticleCards';
+
 import Footer from '../Footer';
 import { Link } from 'react-router-dom';
 
 export default function Articles() {
   return  <>
 
-<ArticleCards />
+
           <div className='articles'>
-          
+
             <div className='articles-wrapper'>
             <h1>Articles on Plastic Pollution</h1>
             <a href="https://ourworldindata.org/plastic-pollution?utm_source=newsletter" rel="Plastic pollution - www.ourworlddata.com">
-              Plastic pollution - www.ourworlddata.com</a>             
+              Plastic pollution - www.ourworlddata.com</a>
             <div className='articles-wrapper'>
             <a href="http://www.int-res.com/articles/meps/37/m037p295.pdf" rel=">Marine birds and plastic pollution - www.int-res.com">
             Marine birds and plastic pollution - www.int-res.com</a>
@@ -38,6 +38,6 @@ export default function Articles() {
           </div>
           <Footer/>
 </>
-  
-  
+
+
 }
