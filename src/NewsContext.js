@@ -5,12 +5,12 @@ export const NewsContext = createContext();
 
 export const NewsContextProvider = (props) => {
   const [data, setData] = useState();
-  const apiKey = "d3a68d3a93a54948a016a1553bc4d20c";
+  const apiKey = "5c080ec3ac27478d812241c854b92985";
 
   useEffect(() => {
     axios
       .get(
-        `http://newsapi.org/v2/everything?q=Plastic&Polution&from=2021-02-19&apiKey=${apiKey}`
+        `http://newsapi.org/v2/everything?q=Pollution&sortBy=publishedAt&apiKey=${apiKey}`
       )
       .then((response) => setData(response.data))
       .catch((error) => console.log(error));
