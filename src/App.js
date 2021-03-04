@@ -1,6 +1,5 @@
 import React, { createContext, useEffect, useState } from "react";
 import axios from "axios";
-import { ArticlesContextProvider } from "./ArticlesContext";
 
 
 import Navbar from './components/Navbar';
@@ -15,7 +14,8 @@ import VideosDocumentaries from './components/pages/VideosDocumentaries';
 import Signup from './user/signup/Signup';
 import Login from './user/login/Login';
 import Quiz2 from './components/pages/Quiz2';
-import Article from "./components/pages/Article";
+import { NewsContextProvider } from "./NewsContext";
+import News from "./components/News";
 import Quiz3 from './components/pages/Quiz3';
 import yes from './app/yes';
 import Questionnaires from './components/pages/Questionnaire';
@@ -32,7 +32,9 @@ function App() {
           <Route path='/' exact component={Home} />
           <Route path='/videosdocumentaries' component={VideosDocumentaries}/>
           <Route path='/questionnaires' component={Questionnaires} />
-          <Route path='/article' component={Article} />
+          <Route path='/News' render={()=> <NewsContextProvider>
+              <News />
+            </NewsContextProvider>} />
           <Route path='/Quiz2' component={Quiz2} />
           <Route path='/Quiz3' component={Quiz3} />
           <Route path='/sign-up' component={Signup} />

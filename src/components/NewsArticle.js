@@ -1,7 +1,6 @@
-
 import React from "react";
 
-function PolutionArticle({ data }) {
+function NewsArticle({ data }) {
   return (
     <div className="news">
       <h1 className="news__title">{data.title}</h1>
@@ -9,8 +8,9 @@ function PolutionArticle({ data }) {
       <span className="news__author">{data.author}</span> <br />
       <span className="news__published">{data.publishedAt}</span>
       <span className="news__source">{data.source.name}</span>
+      <span className="news__published">{data.url}</span>
     </div>
   );
 }
 
-export default PolutionArticle;
+export default NewsArticle;
