@@ -1,0 +1,122 @@
+#Container{
+  width: 100%;
+  float: left;
+  height: auto;
+  position: relative;
+}
+
+#Header{
+  width: 100%;
+  height: 120px;
+  background-color:rgb(135, 192, 214);
+  position:absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  font-size: 60px;
+  align-content: center;
+  text-align: center;
+}
+
+#CenterElement{
+  width: 100%;
+  margin-top: 100px;
+}
+
+#column1 {
+  float: left;
+  width: 25%;
+  height: 200px;
+}
+
+#column2 {
+  float: left;
+  width: 50%;
+  height: 200px;
+}
+
+/*https://codepen.io/nikstech/pen/xmMxpr*/
+.text-center{
+	color:#fff;
+	text-transform:uppercase;
+    font-size: 23px;
+    margin: -50px 0 80px 0;
+    display: block;
+    text-align: center;
+}
+.box{
+	position:absolute;
+	left:50%;
+	top:100%;
+	transform: translate(-50%,-50%);
+	border-radius:15px;
+  padding:70px 100px;
+  border-color: rgb(135, 192, 214);
+  border-style:solid;
+}
+.input-container{
+	position:relative;
+	margin-bottom:25px;
+}
+.input-container label{
+	position:absolute;
+	top:0px;
+	left:0px;
+	font-size:16px;
+  color:black;
+    pointer-event:none;
+	transition: all 0.5s ease-in-out;
+}
+.input-container input{
+  border:0;
+  border-bottom:1px solid rgb(135, 192, 214);;
+  background:transparent;
+  width:100%;
+  padding:8px 0 5px 0;
+  font-size:16px;
+  color: black;
+}
+.input-container input:focus{
+ border:none;
+ outline:none;
+ border-bottom:1px solid rgb(135, 192, 214);
+}
+
+.input-container input:focus ~ label,
+.input-container input:valid ~ label{
+	top:-12px;
+	font-size:12px;
+
+}
+.btn{
+	color:#fff;
+  border-style: solid;
+  background-color: rgba(135, 192, 214, 0.5);
+	border-color:rgb(105, 160, 191);
+    color:rgb(0,0,0);
+    padding: 10px;
+	margin-top:20px;
+	border-radius:10px;
+	cursor:pointer;
+	position:relative;
+  margin-left: 65px;
+}
+/*https://codepen.io/nikstech/pen/xmMxpr*/
+
+
+
+#column3 {
+  float: left;
+  width: 25%;
+  height: 200px;
+}
+
+#Footer{
+  position: absolute;
+  bottom: 0;
+  left:0;
+  right : 0;
+  background-color: rgb(135, 192, 214);
+  width: 100%;
+  height: 100px;
+}
