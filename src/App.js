@@ -20,7 +20,7 @@ import Quiz3 from './components/pages/Quiz3';
 import yes from './app/yes';
 
 
-import Questionnaire from './components/pages/ContactForm';
+import Questionnaires from './components/pages/Questionnaire';
 
 import ReactPlayer from "react-player"
 import quizzes from './components/pages/quizzes';
@@ -34,12 +34,11 @@ function App() {
         <Switch>
           <Route path='/' exact component={Home} />
           <Route path='/videosdocumentaries' component={VideosDocumentaries}/>
-          <Route path='/questionnaires' component={Questionnaires} />
+          <Route path='/questionnaire' component={Questionnaires} />
           <Route path='/News' render={()=> <NewsContextProvider>
               <News />
             </NewsContextProvider>} />
-          <Route path='/Quiz2' component={Quiz2} />
-          <Route path='/Quiz3' component={Quiz3} />
+          <Route path='/quizzes' component={quizzes} />
           <Route path='/sign-up' component={Signup} />
           <Route path='/login' component={Login} />
 
