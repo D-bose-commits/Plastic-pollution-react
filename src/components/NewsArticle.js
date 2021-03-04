@@ -8,7 +8,7 @@ function NewsArticle({ data }) {
       <span className="news__author">{data.author}</span> <br />
       <span className="news__published">{data.publishedAt}</span>
       <span className="news__source">{data.source.name}</span>
-      <span className="news__published">{data.url}</span>
+      <span className="news__published"><a href={data.url}>{data.url}</a></span>
     </div>
   );
 }
