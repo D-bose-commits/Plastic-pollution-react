@@ -7,7 +7,7 @@ npm install
 |
 npm install axios - after newest update.
 |
-npm i react-reactplayer
+npm i react-player
 |
 npm install react-router-dom
 |
