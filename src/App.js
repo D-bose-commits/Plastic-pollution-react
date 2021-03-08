@@ -25,6 +25,7 @@ import Questionnaires from './components/pages/Questionnaire';
 
 import ReactPlayer from "react-player"
 import quizzes from './components/pages/quizzes';
+import Pollutionfacts from "./components/pages/Pollutionfacts";
 
 function App() {
   return (
@@ -36,6 +37,10 @@ function App() {
           <Route path='/' exact component={Home} />
           <Route path='/videosdocumentaries' component={VideosDocumentaries}/>
           <Route path='/questionnaire' component={Questionnaires} />
+          <Route path='/articles' component={Articles} />
+          <Route path='/Pollutionfacts' component={Pollutionfacts} />
+          <Route path='/articles' component={Articles} />
+          <Route path='/articles' component={Articles} />
           <Route path='/articles' component={Articles} />
           <Route path='/News' render={()=> <NewsContextProvider>
               <News />

@@ -18,14 +18,14 @@ function Cards() {
             <CardItem
               src='images/img-2.jpg'
               text="Take one of our quizzes and see if you're doing enough for the environment"
-              label='Questionnaires'
-              path='/questionnaires'
+              label='Questionnaire'
+              path='/questionnaire'
             />    
             <CardItem
               src='images/img-3.jpg'
               text='Take a look at articles from across the world detailing plastic pollution and it harm'
               label='Articles'
-              path='/articles'
+              path='/Articles'
             />
           </ul>
         </div>
