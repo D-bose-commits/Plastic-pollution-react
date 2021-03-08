@@ -3,6 +3,7 @@ import '../../App.css';
 import Quiz2 from './Quiz2';
 import Quiz3 from './Quiz3';
 import Footer from '../Footer';
+
 function quizzes() {
   return (
     <>

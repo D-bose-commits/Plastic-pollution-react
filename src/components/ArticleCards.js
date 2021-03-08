@@ -2,7 +2,7 @@ import React from 'react';
 import './Cards.css';
 import CardItem from './CardItem';
 
-function Cards() {
+function ArticleCard() {
   return (
     <div className='cards'>
       <h1>Check out our Resources for spreading Awareness!</h1>
@@ -28,10 +28,24 @@ function Cards() {
               path='/articles'
             />
           </ul>
+          <ul className='cards__items'>
+          <CardItem
+              src='images/img-9.jpg'
+              text='The worlds plastic pollution detailed'
+              label='Video & Documentaries'
+              path='/videosdocumentaries'
+            />
+            <CardItem
+              src='images/img-2.jpg'
+              text="Take one of our quizzes and see if you're doing enough for the environment"
+              label='Questionnaires'
+              path='/questionnaires'
+            />    
+          </ul>
         </div>
       </div>
     </div>
   );
 }
 
-export default Cards;
+export default ArticleCard;
