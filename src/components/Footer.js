@@ -14,15 +14,7 @@ function Footer() {
           You can unsubscribe at any time.
         </p>
         <div className='input-areas'>
-          <form>
-            <input
-              className='footer-input'
-              name='email'
-              type='email'
-              placeholder='Your Email'
-            />
             <Button buttonStyle='btn--outline'>Subscribe</Button>
-          </form>
         </div>
       </section>
       <div class='footer-links'>
@@ -42,47 +34,53 @@ function Footer() {
               <i class="fab fa-centos" />
             </Link>
           </div>
+
           <small class='website-rights'>Brunel university © 2020</small>
           <div class='social-icons'>
             <Link
               class='social-icon-link facebook'
-              to='www.facebook.com'
-              target='_blank'
               aria-label='Facebook'
-            >
-              <i class='fab fa-facebook-f' />
+              target="_blank"
+              >
+            <a target="_blank" href="https://www.facebook.com/">
+            <i class='fab fa-facebook-f' /></a>
             </Link>
+
             <Link
               class='social-icon-link instagram'
-              to='www.instagram.com'
-              target='_blank'
               aria-label='Instagram'
+              target="_blank"
             >
-              <i class='fab fa-instagram' />
+            <a target="_blank" href="https://www.instagram.com/"  rel="https://www.instagram.com/">
+            <i class='fab fa-instagram' /></a>
             </Link>
+
             <Link
               class='social-icon-link youtube'
-              to='www.youtube.com'
-              target='_blank'
               aria-label='Youtube'
+              target="_blank"
             >
-              <i class='fab fa-youtube' />
+             <a target="_blank" href="https://www.youtube.com/"  rel="https://www.youtube.com/">
+             <i class='fab fa-youtube' /></a>
             </Link>
+
             <Link
               class='social-icon-link twitter'
-              to='www.twitter.com'
-              target='_blank'
               aria-label='Twitter'
+              target="_blank"
+
             >
-              <i class='fab fa-twitter' />
+              <a target="_blank" href="https://www.twitter.com/"  rel="https://www.twitter.com/">
+              <i class='fab fa-twitter' /></a>
             </Link>
+
             <Link
               class='social-icon-link linkedin'
-              to='www.Linkedin.com'
-              target='_blank'
               aria-label='LinkedIn'
+              target="_blank"
             >
-              <i class='fab fa-linkedin' />
+              <a target="_blank" href="https://www.linkedin.com/"  rel="https://www.linkedin.com/">
+              <i class='fab fa-linkedin' /></a>
             </Link>
           </div>
         </div>

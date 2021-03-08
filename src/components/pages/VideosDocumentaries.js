@@ -45,5 +45,7 @@ function VideosDocumentaries() {
             <ReactPlayer className="VideoPlayer" url="https://www.youtube.com/watch?v=1acjqraXMhs&feature=youtu.be" />
         </div>
      </div>
+
 }
+
 export default VideosDocumentaries; 

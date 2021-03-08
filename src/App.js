@@ -7,6 +7,7 @@ import './App.css';
 import Home from './components/pages/Home';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import VideosDocumentaries from './components/pages/VideosDocumentaries';
+import Articles from './components/pages/Articles';
 
 
 // import SignUp from './components/pages/SignUp';
@@ -35,6 +36,7 @@ function App() {
           <Route path='/' exact component={Home} />
           <Route path='/videosdocumentaries' component={VideosDocumentaries}/>
           <Route path='/questionnaire' component={Questionnaires} />
+          <Route path='/articles' component={Articles} />
           <Route path='/News' render={()=> <NewsContextProvider>
               <News />
             </NewsContextProvider>} />
