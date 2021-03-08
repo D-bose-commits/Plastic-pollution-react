@@ -10,7 +10,6 @@
 .articles,
 .questionnaires,
 .sign-up
-.FAQs
 {
   display: flex;
   height: 90vh;
