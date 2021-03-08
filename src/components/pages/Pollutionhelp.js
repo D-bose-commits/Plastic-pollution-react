@@ -3,50 +3,50 @@ import '../../App.css';
 
 import Footer from '../Footer';
 import { Link } from 'react-router-dom';
-import ArticleCard from '../ArticleCards';
+import ArticleCardPH from '../ArticleCardPH';
 
 export default function Pollutionhelp() {
   return  <>
 
-        <ArticleCard />
+        <ArticleCardPH />
         <div className='articles'>
 
             <div className='article-container'>
-            <h1>--Plastic Pollution Facts and Information Articles--</h1>
+            <h1>--How to reduce your own Pollution--</h1>
 
             <div className='articles-wrapper'>
-            <a href="https://www.greenpeace.org/usa/key-facts-about-plastic-pollution/" target="_blank" >
-            Key Facts About Plastic Pollution  --  GreenPeace</a>
+            <a href="https://www.oceanicsociety.org/blog/1720/7-ways-to-reduce-ocean-plastic-pollution-today" target="_blank" >
+            7 Ways To Reduce Ocean Plastic Pollution Today  --  Oceanic Society</a>
             </div>
 
             <div className='articles-wrapper'>
-            <a href="https://www.sas.org.uk/our-work/plastic-pollution/plastic-pollution-facts-figures/" target="_blank" >
-            Plastic pollution facts and figures  --  Surfers Against Sewage</a>
+            <a href="https://www.citytosea.org.uk/12-ways-to-reduce-plastic-pollution/" target="_blank" >
+            12 ways to reduce plasticpollution small changes that make a big difference  --  City to Sea</a>
             </div>
 
             <div className='articles-wrapper'>
-            <a href="https://www.globalcitizen.org/en/content/plastic-pollution-facts/" target="_blank" >
-            10 Plastic Pollution Facts That Show Why We Need To Do More  --  Global Citizen </a>
+            <a href="https://friendsoftheearth.uk/plastics" target="_blank" >
+            Plastic pollution How to reduce plastic in the ocean  --  Friends of the Earth </a>
             </div>
 
             <div className='articles-wrapper'>
-            <a href="https://www.ecowatch.com/22-facts-about-plastic-pollution-and-10-things-we-can-do-about-it-1881885971.html" target="_blank" >
-            22 Facts About Plastic Pollution (And 10 Things We Can Do About It)  --  EcoWatch </a>
+            <a href="https://www.wwf.org.uk/updates/ten-tips-reduce-your-plastic-footprint" target="_blank" >
+            Ten tips to reduce your plastic footprint  --  World Wide Fund for Nature </a>
             </div>
 
             <div className='articles-wrapper'>
-            <a href="https://plasticoceans.org/the-facts/" target="_blank" >
-            Plastic Pollution "The Facts"   --  Plastic Ocean </a>
+            <a href="https://www.glo-be.be/en/articles/14-tips-prevent-plastic-pollution" target="_blank" >
+            14 tips to prevent plastic pollution  --  Glo-be </a>
             </div>
 
             <div className='articles-wrapper'>
-            <a href="https://www.condorferries.co.uk/plastic-in-the-ocean-statistics" target="_blank" >
-            Shocking Ocean Plastic Statistics: The Threat to Marine life, The Ocean & Humanity  --  CondorFerries </a>
+            <a href="https://www.earthday.org/what-you-can-do-to-end-plastic-pollution/" target="_blank" >
+            What can you do to end plastic pollution --  EarthDay </a>
             </div>
 
             <div className='articles-wrapper'>
-            <a href="https://www.nationalgeographic.co.uk/10-shocking-facts-about-plastic" target="_blank" >
-            10 Shocking Facts about Plastic  --  National Geographic </a>
+            <a href="https://www.wri.org/blog/2020/05/how-to-reduce-plastic-ocean-pollution" target="_blank" >
+            How to Reduce Plastic and Other Ocean Pollution Simultaneously -- World Resources Institute </a>
             </div>
 
             </div>

@@ -3,12 +3,12 @@ import '../../App.css';
 
 import Footer from '../Footer';
 import { Link } from 'react-router-dom';
-import ArticleCard from '../ArticleCards';
+import ArticleCardPF from '../ArticleCardPF';
 
 export default function Pollutionfacts() {
   return  <>
 
-        <ArticleCard />
+        <ArticleCardPF />
         <div className='articles'>
 
             <div className='article-container'>

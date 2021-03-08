@@ -27,6 +27,7 @@ import ReactPlayer from "react-player"
 import quizzes from './components/pages/quizzes';
 import Pollutionfacts from "./components/pages/Pollutionfacts";
 import Pollutionhelp from "./components/pages/Pollutionhelp";
+import Pollutionscholarly from "./components/pages/Pollutionscholarly";
 
 function App() {
   return (
@@ -41,8 +42,7 @@ function App() {
           <Route path='/articles' component={Articles} />
           <Route path='/Pollutionfacts' component={Pollutionfacts} />
           <Route path='/Pollutionhelp' component={Pollutionhelp} />
-          <Route path='/articles' component={Articles} />
-          <Route path='/articles' component={Articles} />
+          <Route path='/Pollutionscholarly' component={Pollutionscholarly} />
           <Route path='/News' render={()=> <NewsContextProvider>
               <News />
             </NewsContextProvider>} />

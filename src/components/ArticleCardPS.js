@@ -2,7 +2,7 @@ import React from 'react';
 import './Cards.css';
 import CardItem from './CardItem';
 
-function ArticleCard() {
+function ArticleCardPS() {
   return (
     <div className='cards'>
       <h1>Check out our Curated Resources For Plastic Pollution!</h1>
@@ -21,12 +21,6 @@ function ArticleCard() {
               label='What you can do to Help'
               path='/Pollutionhelp'
             />    
-            <CardItem
-              src='images/img-3.jpg'
-              text='Schorlerly Articles Detailing more in depth information about the current situation on Pollution'
-              label='PollutionScholarly'
-              path='/Pollutionscholarly'
-            />
           </ul>
         </div>
       </div>
@@ -34,4 +28,4 @@ function ArticleCard() {
   );
 }
 
-export default ArticleCard;
+export default ArticleCardPS;
