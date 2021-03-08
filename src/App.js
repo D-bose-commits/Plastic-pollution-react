@@ -12,6 +12,7 @@ import Quiz2 from './components/pages/Quiz2';
 import Quiz3 from './components/pages/Quiz3';
 import yes from './app/yes';
 import Questionnaires from './components/pages/Questionnaire';
+// import FAQ from './FAQ';
 
 import ReactPlayer from "react-player"
 
@@ -27,6 +28,8 @@ function App() {
           <Route path='/questionnaires' component={Questionnaires} />
           <Route path='/articles' component={Articles} />
           <Route path='/sign-up' component={Signup} /> 
+         
+        
           <Route path='/login' component={Login} />
           
           {/* <Route path='/sign-up' component={SignUp} /> */}
@@ -36,6 +39,21 @@ function App() {
     </>
   );
 }
+
+var acc =  document.getElementsByClassName('accordion');
+var i;
+var len = acc.length;
+for (i = 0; i < len; i++) {
+  acc [i].addEventListener('click', function() {
+    this.classList.toggle('active');
+    var panel = this.nextElementSibling;
+    if (panel.style.MaxHeight) {
+      panel.style.MaxHeight = null;
+    } else { panel.style.MaxHeight = panel.scrollHeight + 'px'
+
+    }
+    })
+  }
 
 export default App;
 
