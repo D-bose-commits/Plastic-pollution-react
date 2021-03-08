@@ -5,7 +5,7 @@ import Footer from '../Footer';
 import { Link } from 'react-router-dom';
 import ArticleCard from '../ArticleCards';
 
-export default function Pollutionfacts() {
+export default function Pollutionhelp() {
   return  <>
 
         <ArticleCard />

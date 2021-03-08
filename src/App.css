@@ -45,9 +45,9 @@ background-image: url('/images/img-10.jpg');
 background-position: center;
 background-size: cover;
 background-repeat: no-repeat;
-margin:20px auto;
 display: grid;
-grid-template-columns: repeat(3, 1fr);
+grid-template-columns: repeat(1, 1fr);
+color: rgb(240, 240, 240);
 grid-gap: 10px;
 
 }
@@ -59,19 +59,26 @@ grid-gap: 10px;
   margin:20px auto;
 }
 
-.articles-wrapper{
-  opacity: 0.8;
-  position: auto;
-  background-color: #fff;
-  font-size: 30px;
+.article-container{
+  background : linear-gradient(90deg, rgb(37, 173, 226) 0%, rgb(32, 214, 190) 100%);
+  padding: 2rem 0 2rem 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+  'Lucida Sans', Arial, sans-serif;
   padding: 10pt;
-
+  justify-content: center;
+  align-items: center;
 }
+
 .articles-wrapper{
-  max-width: 500px;
-  padding: 30px;
-  border: 1px solid lightblue;
+  opacity: 0.5;
+  position: auto;
+  font-size: 20px;
+  max-width: 1200px;
+  padding: 20px;
+  border-bottom: 1px solid lightblue;
   border-radius: 5px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+  'Lucida Sans', Arial, sans-serif;
 }
 
 .sign-up {

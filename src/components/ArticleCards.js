@@ -5,33 +5,27 @@ import CardItem from './CardItem';
 function ArticleCard() {
   return (
     <div className='cards'>
-      <h1>Check out our Resources for spreading Awareness!</h1>
+      <h1>Check out our Curated Resources For Plastic Pollution!</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
               src='images/img-10.jpg'
-              text='Plastic Pollution Facts and Information'
+              text='Plastic Pollution Facts and Information Articles'
               label='Plastic Pollution Facts & Information'
               path='/Pollutionfacts'
             />
             <CardItem
               src='images/img-2.jpg'
-              text="Take one of our quizzes and see if you're doing enough for the environment"
-              label='Questionnaire'
-              path='/questionnaire'
+              text="How to help the world recover"
+              label='Pollution'
+              path='/Pollutionhelp'
             />    
             <CardItem
               src='images/img-3.jpg'
               text='Take a look at articles from across the world detailing plastic pollution and it harm'
               label='Articles'
               path='/articles'
-            />
-            <CardItem
-            src='images/img-3.jpg'
-            text='Take a look at articles from across the world detailing plastic pollution and it harm'
-            label='Articles'
-            path='/articles'
             />
           </ul>
         </div>
