@@ -117,7 +117,7 @@
 .social-icons {
   display: flex;
   color:inherit;
-  color: #fff;
+  color: #fff);
   text-decoration: none ;
   border:0px ;
   justify-content: space-between;
@@ -138,7 +138,7 @@
 }
 
 .website-rights {
-  color: #fff;
+  color: #fff(9, 98, 170);
   margin-bottom: 16px;
 }
 
