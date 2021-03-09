@@ -13,8 +13,20 @@ function Footer() {
         <p className='footer-subscription-text'>
           You can unsubscribe at any time.
         </p>
+        <p className='footer-subscription-text'>
+          Get involved and make a change today!
+        </p>
         <div className='input-areas'>
+          <form>
+            <input
+              className='footer-input'
+              name='email'
+              type='email'
+              placeholder='Your Email'
+            />
             <Button buttonStyle='btn--outline'>Subscribe</Button>
+            
+          </form>
         </div>
       </section>
       <div class='footer-links'>
@@ -24,6 +36,7 @@ function Footer() {
             <Link to='/'>Contact</Link>
             <Link to='/'>Support</Link>
           </div>
+          
         </div>
       </div>
       <section class='social-media'>
@@ -34,53 +47,47 @@ function Footer() {
               <i class="fab fa-centos" />
             </Link>
           </div>
-
           <small class='website-rights'>Brunel university © 2020</small>
           <div class='social-icons'>
             <Link
               class='social-icon-link facebook'
+              to='www.facebook.com'
+              target='_blank'
               aria-label='Facebook'
-              target="_blank"
-              >
-            <a target="_blank" href="https://www.facebook.com/">
-            <i class='fab fa-facebook-f' /></a>
+            >
+              <i class='fab fa-facebook-f' />
             </Link>
-
             <Link
               class='social-icon-link instagram'
+              to='www.instagram.com'
+              target='_blank'
               aria-label='Instagram'
-              target="_blank"
             >
-            <a target="_blank" href="https://www.instagram.com/"  rel="https://www.instagram.com/">
-            <i class='fab fa-instagram' /></a>
+              <i class='fab fa-instagram' />
             </Link>
-
             <Link
               class='social-icon-link youtube'
+              to='www.youtube.com'
+              target='_blank'
               aria-label='Youtube'
-              target="_blank"
             >
-             <a target="_blank" href="https://www.youtube.com/"  rel="https://www.youtube.com/">
-             <i class='fab fa-youtube' /></a>
+              <i class='fab fa-youtube' />
             </Link>
-
             <Link
               class='social-icon-link twitter'
+              to='www.twitter.com'
+              target='_blank'
               aria-label='Twitter'
-              target="_blank"
-
             >
-              <a target="_blank" href="https://www.twitter.com/"  rel="https://www.twitter.com/">
-              <i class='fab fa-twitter' /></a>
+              <i class='fab fa-twitter' />
             </Link>
-
             <Link
               class='social-icon-link linkedin'
+              to='www.Linkedin.com'
+              target='_blank'
               aria-label='LinkedIn'
-              target="_blank"
             >
-              <a target="_blank" href="https://www.linkedin.com/"  rel="https://www.linkedin.com/">
-              <i class='fab fa-linkedin' /></a>
+              <i class='fab fa-linkedin' />
             </Link>
           </div>
         </div>
