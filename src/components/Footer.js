@@ -47,12 +47,12 @@ function Footer() {
               <i class="fab fa-centos" />
             </Link>
           </div>
-          <small class='website-rights'>Brunel university © 2020</small>
+          <small class='website-rights'>Brunel University © 2020</small>
           <div class='social-icons'>
             <Link
               class='social-icon-link facebook'
               to='www.facebook.com'
-              target='_blank'
+              target='www.facebook.com'
               aria-label='Facebook'
             >
               <i class='fab fa-facebook-f' />
@@ -60,7 +60,7 @@ function Footer() {
             <Link
               class='social-icon-link instagram'
               to='www.instagram.com'
-              target='_blank'
+              target='www.instagram.com'
               aria-label='Instagram'
             >
               <i class='fab fa-instagram' />
@@ -68,7 +68,7 @@ function Footer() {
             <Link
               class='social-icon-link youtube'
               to='www.youtube.com'
-              target='_blank'
+              target='www.youtube.com'
               aria-label='Youtube'
             >
               <i class='fab fa-youtube' />
@@ -76,7 +76,7 @@ function Footer() {
             <Link
               class='social-icon-link twitter'
               to='www.twitter.com'
-              target='_blank'
+              target='www.twitter.com'
               aria-label='Twitter'
             >
               <i class='fab fa-twitter' />
@@ -84,7 +84,7 @@ function Footer() {
             <Link
               class='social-icon-link linkedin'
               to='www.Linkedin.com'
-              target='_blank'
+              target='www.Linkedin.com'
               aria-label='LinkedIn'
             >
               <i class='fab fa-linkedin' />
