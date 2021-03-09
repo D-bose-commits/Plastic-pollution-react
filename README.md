@@ -15,3 +15,9 @@ npm i react-player
 |
 npm i react-iframe
 |
+
+Compiling error? 
+CTRL CX
+Npm audit fix 
+Npm start 
+Ensure all other components above are installed.  
