@@ -1,5 +1,5 @@
 import React, { createContext, useEffect, useState } from "react";
-import axios from "axios";
+
 
 
 import Navbar from './components/Navbar';
@@ -58,6 +58,25 @@ function App() {
     </>
   );
 }
+
+
+
+
+var acc =  document.getElementsByClassName('accordion');
+var i;
+var len = acc.length;
+for (i = 0; i < len; i++) {
+  acc [i].addEventListener('click', function() {
+    this.classList.toggle('active');
+    var panel = this.nextElementSibling;
+    if (panel.style.MaxHeight) {
+      panel.style.MaxHeight = null;
+    } else { panel.style.MaxHeight = panel.scrollHeight + 'px'
+
+    }
+    })
+  }
+
 export default App;
 
 //Npm install , npm install react-router-dom, npm i react-player, npm i react-iframe
