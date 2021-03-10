@@ -10,8 +10,8 @@
 .Articles,
 .questionnaire,
 .quizzes,
-.sign-up
-.FAQs
+.sign-up,
+.FAQs,
 {
   display: flex;
   height: 90vh;
@@ -50,6 +50,18 @@ display: grid;
 grid-template-columns: repeat(1, 1fr);
 color: rgb(240, 240, 240);
 grid-gap: 10px;
+
+.FAQs {
+
+background-image: url('/https://www.google.com/search?q=plastic+pollution+in+the+sea&rlz=1C1YTUH_en-GBGB942GB942&sxsrf=ALeKk02_R6EBNK638TbP8wdnjXeDUX8RAg:1615341780492&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjSh5GI0aTvAhXIiVwKHei_CXIQ_AUoAXoECAMQAw&biw=1920&bih=969#imgrc=NYZEmRT9bIEIYM');
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+display: grid;
+margin: 20px auto;
+
+
+}
 
 }
 .quizzes{
