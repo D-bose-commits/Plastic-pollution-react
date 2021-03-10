@@ -29,6 +29,7 @@ import Pollutionfacts from "./components/pages/Pollutionfacts";
 import Pollutionhelp from "./components/pages/Pollutionhelp";
 import Pollutionscholarly from "./components/pages/Pollutionscholarly";
 
+
 function App() {
   return (
     <>
@@ -43,6 +44,7 @@ function App() {
           <Route path='/Pollutionfacts' component={Pollutionfacts} />
           <Route path='/Pollutionhelp' component={Pollutionhelp} />
           <Route path='/Pollutionscholarly' component={Pollutionscholarly} />
+         
           <Route path='/News' render={()=> <NewsContextProvider>
               <News />
             </NewsContextProvider>} />
