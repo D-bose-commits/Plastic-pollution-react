@@ -2,7 +2,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Project Pitch/ Summary of App 
 
-The intention behind the creation of this app is to help accommplish SDG #14 - Life Below Water (conserve and sustainably use the oceans, seas and marine resources for sustainable development). We, group 26, intends to educate and inform our users on plastic pollution in the world's oceans.
+The intention behind the creation of this app is to help accommplish SDG #14 - Life Below Water (conserve and sustainably use the oceans, seas and marine resources for sustainable development). We, group 26, intend to educate and inform our users on plastic pollution in the world's oceans and how to lessen its impact.
 
 
 
