@@ -1,6 +1,6 @@
 // import React, { useState } from 'react';
 
-// function Quiz3 () {
+// function Quiz1 () {
 // 	const questions = [
 // 		{
 // 			questionText: 'How many plastics types are considered the main or most popular types?',
@@ -160,4 +160,4 @@
 // 	);
 
 // }
-// export default Quiz3;
+// export default Quiz1;
