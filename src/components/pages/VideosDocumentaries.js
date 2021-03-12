@@ -4,7 +4,8 @@ import ReactPlayer from "react-player"
 import Footer from '../Footer';
 
 function VideosDocumentaries() {
-    return <div className="VideosDocumentaries">
+    return <>
+    <div className="VideosDocumentaries">
             <div className = "ReactPlayer">
              <h1>Plastic Pollution Video </h1> 
             <ReactPlayer className="VideoPlayer" url="https://www.youtube.com/watch?v=IA9O9YUbQew" />
@@ -45,5 +46,7 @@ function VideosDocumentaries() {
             <ReactPlayer className="VideoPlayer" url="https://www.youtube.com/watch?v=1acjqraXMhs&feature=youtu.be" />
         </div>
      </div>
+</>
+
 }
 export default VideosDocumentaries; 

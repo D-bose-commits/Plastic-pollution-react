@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
+import Quiz3 from './Quiz3';
 
-export default function App() {
+function Quiz2() {
 	const questions = [
 		{
 			questionText: 'What percentage of plastic items that go in the recycling bin ACTUALLY get recycled?',
@@ -57,7 +58,6 @@ export default function App() {
 			],
 		},
 		{
-			//change correct answers to include two correct answers
 			questionText: 'What do you get in return for recycling plastic in Haiti? (Choose two)',
 			answerOptions: [
 				{ answerText: 'Cash', isCorrect: false },
@@ -125,5 +125,9 @@ export default function App() {
 				</>
 			)}
 		</div>
+
+		
 	);
+
 }
+export default Quiz2;
