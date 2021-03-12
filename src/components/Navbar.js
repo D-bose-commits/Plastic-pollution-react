@@ -29,7 +29,7 @@ function Navbar() {
       <nav className='navbar'>
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-              BUPP 
+              BUPP
               <i class="fab fa-centos" />
           </Link>
           <div className='menu-icon' onClick={handleClick}>               {/*resets the menu icon*/}
@@ -52,16 +52,27 @@ function Navbar() {
             </li>
             <li className='nav-item'>
               <Link
-                to='/questionnaires'
+                to='/questionnaire'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
                 Questionnaires
                 </Link>
             </li>
+  
+            
             <li className='nav-item'>
               <Link
-                to='/Quiz2' 
+                to='/FAQ'
+                className='nav-links'
+                onClick={closeMobileMenu}
+              >
+                FAQ
+                </Link>
+            </li>
+            <li className='nav-item'>
+              <Link
+                to='/quizzes'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
@@ -70,11 +81,20 @@ function Navbar() {
             </li>
             <li className='nav-item'>
               <Link
-                to='/articles'
+                to='/Articles'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
                 Articles
+              </Link>
+            </li>
+            <li className='nav-item'>
+              <Link
+                to='/News'
+                className='nav-links'
+                onClick={closeMobileMenu}
+              >
+                News
               </Link>
             </li>
 

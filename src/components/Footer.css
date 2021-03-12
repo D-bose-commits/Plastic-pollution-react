@@ -96,6 +96,7 @@
 /* Social Icons */
 .social-icon-link {
   color: #fff;
+  color:inherit;
   font-size: 24px;
 }
 
@@ -115,6 +116,10 @@
 
 .social-icons {
   display: flex;
+  color:inherit;
+  color: #fff);
+  text-decoration: none ;
+  border:0px ;
   justify-content: space-between;
   align-items: center;
   width: 240px;
@@ -133,7 +138,7 @@
 }
 
 .website-rights {
-  color: #fff;
+  color: #fff(9, 98, 170);
   margin-bottom: 16px;
 }
 
