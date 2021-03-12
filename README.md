@@ -1,7 +1,12 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 
-Guys in order to make the project to work you will need to install React.
+In case you've run the project and encountered a compiling error,
+These are some common fixes:
+
+In order to make the project work you will need to install React.
+
+
 
 npm install
 |
