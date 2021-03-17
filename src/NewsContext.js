@@ -23,3 +23,4 @@ export const NewsContextProvider = (props) => {
     </NewsContext.Provider>
   );
 };
+// This page has been created base on Reference: https://github.com/shanjairaj7/

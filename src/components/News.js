@@ -19,7 +19,8 @@ function News(props) {
       </div>
       <Footer />
     </div>
-  ); 
+  );
 }
 
 export default News;
+// This page has been created base on Reference: https://github.com/shanjairaj7/

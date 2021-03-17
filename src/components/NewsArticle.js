@@ -14,3 +14,4 @@ function NewsArticle({ data }) {
 }
 
 export default NewsArticle;
+// This page has been created base on Reference: https://github.com/shanjairaj7/
