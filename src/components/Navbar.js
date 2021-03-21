@@ -49,27 +49,9 @@ function Navbar() {
               >
                 Videos and Documentaries
               </Link>
-            </li>
-            <li className='nav-item'>
-              <Link
-                to='/questionnaire'
-                className='nav-links'
-                onClick={closeMobileMenu}
-              >
-                Questionnaires
-                </Link>
-            </li>
-  
+            </li>  
             
-            <li className='nav-item'>
-              <Link
-                to='/FAQ'
-                className='nav-links'
-                onClick={closeMobileMenu}
-              >
-                FAQ
-                </Link>
-            </li>
+
             <li className='nav-item'>
               <Link
                 to='/quizzes'
@@ -79,6 +61,7 @@ function Navbar() {
                 Quizzes
               </Link>
             </li>
+            
             <li className='nav-item'>
               <Link
                 to='/Articles'

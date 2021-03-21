@@ -21,7 +21,6 @@ import Quiz3 from './components/pages/Quiz3';
 import yes from './app/yes';
 
 
-import Questionnaires from './components/pages/Questionnaire';
 
 import ReactPlayer from "react-player"
 import quizzes from './components/pages/quizzes';
@@ -39,7 +38,6 @@ function App() {
         <Switch>
           <Route path='/' exact component={Home} />
           <Route path='/videosdocumentaries' component={VideosDocumentaries}/>
-          <Route path='/questionnaire' component={Questionnaires} />
           <Route path='/articles' component={Articles} />
           <Route path='/Pollutionfacts' component={Pollutionfacts} />
           <Route path='/Pollutionhelp' component={Pollutionhelp} />
