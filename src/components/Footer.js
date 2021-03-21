@@ -50,43 +50,25 @@ function Footer() {
           <small class='website-rights'>Brunel University © 2020</small>
           <div class='social-icons'>
             <Link
-              class='social-icon-link facebook'
-              to='www.facebook.com'
-              target='www.facebook.com'
-              aria-label='Facebook'
-            >
-              <i class='fab fa-facebook-f' />
+                a target="_blank" href="https://www.facebook.com/">
+                <i class='fab fa-facebook-f' />                  
             </Link>
+
             <Link
-              class='social-icon-link instagram'
-              to='www.instagram.com'
-              target='www.instagram.com'
-              aria-label='Instagram'
-            >
+              a target="_blank" href="https://www.instagram.com/">
               <i class='fab fa-instagram' />
             </Link>
             <Link
-              class='social-icon-link youtube'
-              to='www.youtube.com'
-              target='www.youtube.com'
-              aria-label='Youtube'
-            >
+              a target="_blank" href="https://www.youtube.com/">
+
               <i class='fab fa-youtube' />
             </Link>
             <Link
-              class='social-icon-link twitter'
-              to='www.twitter.com'
-              target='www.twitter.com'
-              aria-label='Twitter'
-            >
+              a target="_blank" href="https://www.twitter.com/"> 
               <i class='fab fa-twitter' />
             </Link>
             <Link
-              class='social-icon-link linkedin'
-              to='www.Linkedin.com'
-              target='www.Linkedin.com'
-              aria-label='LinkedIn'
-            >
+              a target="_blank" href="https://www.linkedin.com/">
               <i class='fab fa-linkedin' />
             </Link>
           </div>

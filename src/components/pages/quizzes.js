@@ -9,6 +9,7 @@ import Footer from '../Footer';
 function quizzes() {
   return (
     <>
+    
       <Quiz2 /> 
       <Quiz3 />
       

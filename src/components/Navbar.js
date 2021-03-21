@@ -49,9 +49,8 @@ function Navbar() {
               >
                 Videos and Documentaries
               </Link>
-            </li>  
+            </li>         
             
-
             <li className='nav-item'>
               <Link
                 to='/quizzes'
@@ -61,7 +60,7 @@ function Navbar() {
                 Quizzes
               </Link>
             </li>
-            
+
             <li className='nav-item'>
               <Link
                 to='/Articles'

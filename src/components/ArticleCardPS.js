@@ -16,7 +16,7 @@ function ArticleCardPS() {
               path='/Pollutionfacts'
             />
             <CardItem
-              src='images/img-2.jpg'
+              src='images/img-1.jpg'
               text="How to help the world recover from Plastic Pollution"
               label='What you can do to Help'
               path='/Pollutionhelp'
