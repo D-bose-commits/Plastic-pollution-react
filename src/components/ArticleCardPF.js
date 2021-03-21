@@ -17,7 +17,7 @@ function ArticleCardPF() {
             />    
             <CardItem
               src='images/img-8.jpg'
-              text='Schorlerly Articles Detailing more in depth information about the current situation on Pollution'
+              text='Scholarly Articles detailing more in depth information about the current situation on Pollution'
               label='PollutionScholarly'
               path='/Pollutionscholarly'
             />
