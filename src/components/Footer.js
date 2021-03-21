@@ -49,27 +49,46 @@ function Footer() {
           </div>
           <small class='website-rights'>Brunel University © 2020</small>
           <div class='social-icons'>
-            <Link
-                a target="_blank" href="https://www.facebook.com/">
-                <i class='fab fa-facebook-f' />                  
+          <Link
+              class='social-icon-link facebook'
+              aria-label='Facebook'
+              target="_blank"
+              >
+            <a target="_blank" href="https://www.facebook.com/">
+            <i class='fab fa-facebook-f' /></a>
             </Link>
+            <Link
+              class='social-icon-link instagram'
+              aria-label='Facebook'
+              target="_blank"
+              >
+              <a target="_blank" href="https://www.instagram.com">
+              <i class='fab fa-instagram' /></a>
+            </Link>
+            <Link
+              class='social-icon-link youtube'
+              aria-label='Facebook'
+              target="_blank"
+              >
+            <a target="_blank" href="https://www.youtube.com/">
 
-            <Link
-              a target="_blank" href="https://www.instagram.com/">
-              <i class='fab fa-instagram' />
+              <i class='fab fa-youtube' /></a>
             </Link>
             <Link
-              a target="_blank" href="https://www.youtube.com/">
-
-              <i class='fab fa-youtube' />
+             class='social-icon-link twitter'
+             aria-label='Facebook'
+             target="_blank"
+             >
+           <a target="_blank" href="https://www.twitter.com/">
+              <i class='fab fa-twitter' /></a>
             </Link>
             <Link
-              a target="_blank" href="https://www.twitter.com/"> 
-              <i class='fab fa-twitter' />
-            </Link>
-            <Link
-              a target="_blank" href="https://www.linkedin.com/">
-              <i class='fab fa-linkedin' />
+              class='social-icon-link linkedin'
+              aria-label='Facebook'
+              target="_blank"
+              >
+            <a target="_blank" href="https://www.linkedin.com/">
+              <i class='fab fa-linkedin' /></a>
             </Link>
           </div>
         </div>
