@@ -17,11 +17,7 @@ function Cards() {
             />
             <CardItem
               src='images/img-2.jpg'
-<<<<<<< HEAD
               text="Take one of our quizzes and see if you're doing enough for the environment"
-=======
-              text="Take one of our quizzes and see if you're doing enough for the environment!"
->>>>>>> 8ddfd4e6522ffdd2620cc2249dcb54bbaa2b46db
               label='Quizzes'
               path='/quizzes'
             />    

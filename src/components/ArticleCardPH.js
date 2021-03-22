@@ -17,13 +17,8 @@ function ArticleCardPH() {
           />   
             <CardItem
               src='images/img-8.jpg'
-<<<<<<< HEAD
               text='Studies Detailing more in depth information about the current situation on Pollution'
               label='Scholar Articles'
-=======
-              text='Scholarly Articles detailing more in depth information about the current situation on Pollution'
-              label='PollutionScholarly'
->>>>>>> 8ddfd4e6522ffdd2620cc2249dcb54bbaa2b46db
               path='/Pollutionscholarly'
             />
           </ul>
