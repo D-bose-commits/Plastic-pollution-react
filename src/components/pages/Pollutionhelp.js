@@ -16,12 +16,13 @@ export default function Pollutionhelp() {
 
             <div className='articles-wrapper'>
             <a href="https://www.oceanicsociety.org/blog/1720/7-ways-to-reduce-ocean-plastic-pollution-today" target="_blank" >
-            7 Ways To Reduce Ocean Plastic Pollution Today  --  Oceanic Society</a>
+            7 Ways To Reduce Ocean Plastic Pollution Today  --  
+            Oceanic Society  --  By Brian Hutchinson</a>
             </div>
 
             <div className='articles-wrapper'>
             <a href="https://www.citytosea.org.uk/12-ways-to-reduce-plastic-pollution/" target="_blank" >
-            12 ways to reduce plasticpollution small changes that make a big difference  --  City to Sea</a>
+            12 ways to reduce plastic pollution small changes that make a big difference  --  City to Sea</a>
             </div>
 
             <div className='articles-wrapper'>
@@ -46,7 +47,8 @@ export default function Pollutionhelp() {
 
             <div className='articles-wrapper'>
             <a href="https://www.wri.org/blog/2020/05/how-to-reduce-plastic-ocean-pollution" target="_blank" >
-            How to Reduce Plastic and Other Ocean Pollution Simultaneously -- World Resources Institute </a>
+            How to Reduce Plastic and Other Ocean Pollution Simultaneously -- 
+            World Resources Institute  --  by Liz Hollaway, Jenna Jambeck, Ellie Moss and Brajesh Dubey </a>
             </div>
 
             </div>

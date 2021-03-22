@@ -16,22 +16,26 @@ export default function Pollutionfacts() {
 
             <div className='articles-wrapper'>
             <a href="https://www.greenpeace.org/usa/key-facts-about-plastic-pollution/" target="_blank" >
-            Key Facts About Plastic Pollution  --  GreenPeace</a>
+            Key Facts About Plastic Pollution  --  
+            GreenPeace  --  by Sybil Bullock</a>
             </div>
 
             <div className='articles-wrapper'>
             <a href="https://www.sas.org.uk/our-work/plastic-pollution/plastic-pollution-facts-figures/" target="_blank" >
-            Plastic pollution facts and figures  --  Surfers Against Sewage</a>
+            Plastic pollution facts and figures  --  
+            Surfers Against Sewage   </a>
             </div>
 
             <div className='articles-wrapper'>
             <a href="https://www.globalcitizen.org/en/content/plastic-pollution-facts/" target="_blank" >
-            10 Plastic Pollution Facts That Show Why We Need To Do More  --  Global Citizen </a>
+            10 Plastic Pollution Facts That Show Why We Need To Do More  --  
+            Global Citizen  --  By Seneo Mwamba </a>
             </div>
 
             <div className='articles-wrapper'>
             <a href="https://www.ecowatch.com/22-facts-about-plastic-pollution-and-10-things-we-can-do-about-it-1881885971.html" target="_blank" >
-            22 Facts About Plastic Pollution (And 10 Things We Can Do About It)  --  EcoWatch </a>
+            22 Facts About Plastic Pollution (And 10 Things We Can Do About It)  --  
+            EcoWatch  --  By Nicole D'Alessandro </a>
             </div>
 
             <div className='articles-wrapper'>
