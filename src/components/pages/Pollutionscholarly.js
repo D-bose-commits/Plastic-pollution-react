@@ -12,7 +12,7 @@ export default function Pollutionscholarly() {
         <div className='articles'>
 
             <div className='article-container'>
-            <h1>--Plastic Pollution Facts and Information Articles--</h1>
+            <h1>--In-depth Articles on Plastic Pollution--</h1>
 
             <div className='articles-wrapper'>
             <a href="https://ourworldindata.org/plastic-pollution?utm_source=newsletter" target="_blank" >

@@ -18,8 +18,8 @@ function Cards() {
             <CardItem
               src='images/img-2.jpg'
               text="Take one of our quizzes and see if you're doing enough for the environment"
-              label='Questionnaire'
-              path='/questionnaire'
+              label='Quizzes'
+              path='/quizzes'
             />    
             <CardItem
               src='images/img-3.jpg'
